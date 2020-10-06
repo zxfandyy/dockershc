@@ -1,1 +1,1 @@
-# outhing
+> 使用shc简单隐藏Dockerfile安装和运行的服务，以绕过某些pass平台的封锁！ 具体安装运行的服务由自定义变量`SHURL`中脚本内容决定
