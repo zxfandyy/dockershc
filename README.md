@@ -8,5 +8,6 @@
 2. [客户端使用简要](https://github.com/mixool/heroku#%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BD%BF%E7%94%A8%E7%AE%80%E8%A6%81)  
   
 TIPS:  
+* 部署到heroku推荐使用[可定制性更强的这个项目](https://github.com/mixool/heroku)  
 * 部署[v3ray|55|br00k|g0st等脚本范例参考](https://github.com/mixool/across/tree/master/dockershc)  
 * 某些pass平台会检测项目下所有文件和内容的关键字，欢迎PR~有趣的~脚本到上面across项目下的dockershc目录  
