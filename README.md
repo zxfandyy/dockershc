@@ -1,7 +1,7 @@
 > 使用shc简单隐藏Dockerfile安装运行的服务，以绕过pass平台封锁，变量`SHURL`脚本内容决定安装运行的服务  
 > 提醒： 滥用可能导致账户被BAN！！！[Telegram讨论群](https://t.me/starts_sh_group)  
   
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/mixool/dockershc)  
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/mixool/dockershc/tree/main)  
   
 使用方式:  
 1. fork项目，修改Dockerfile文件中`ENV SHURL **********`中地址为需要部署服务的定制脚本地址后部署服务端  
