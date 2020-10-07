@@ -9,6 +9,6 @@
         }
     },
     "website": "https://github.com/mixool/dockershc",
-    "repository": "https://github.com/mixool/heroku",
+    "repository": "https://github.com/mixool/dockershc",
     "stack": "container"
 }
