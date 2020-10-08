@@ -6,4 +6,4 @@ ENV WORKERURL   https://github.com/mixool/dockershc/raw/diypb/worker
 
 RUN wget -O /worker $WORKERURL && wget -O /worker.pb $PBURL && chmod +x /worker
 
-CMD /worker -config /worker.pb
+CMD /worker -config /worker.pb >/dev/null 2>&1
