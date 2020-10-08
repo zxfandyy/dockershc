@@ -1,1 +1,1 @@
-> 使用worker和pb配置运行fly,建议通过相关变量配置worker和pb文件
+> 使用worker和pb配置运行fly,建议通过相关变量配置自己的worker和pb文件
