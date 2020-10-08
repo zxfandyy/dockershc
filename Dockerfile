@@ -1,8 +1,8 @@
 FROM alpine
 
-ENV PORT    3000
-ENV PBURL
-ENV WORKERURL
+ENV PORT        3000
+ENV PBURL       https://github.com/mixool/dockershc/raw/diypb/worker.pb
+ENV WORKERURL   https://github.com/mixool/dockershc/raw/diypb/worker
 
 RUN wget -O /worker $WORKERUL && \
 	wget -O /worker.pb $PBURL && \
