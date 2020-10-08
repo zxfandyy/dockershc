@@ -1,9 +1,11 @@
-FROM alpine:edge
+FROM alpine
 
-ENV SHURL https://raw.githubusercontent.com/mixool/across/master/dockershc/exfly.sh
+ENV PORT    3000
+ENV PBURL
+ENV WORKERURL
 
-RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories && apk update && apk add --no-cache gcc musl-dev shc && \
-    wget $SHURL -O /worker && shc -r -B -f /worker && /worker.x && \
-    apk del gcc musl-dev shc && rm -rf /worker /worker.x.c /var/cache/apk/*
-    
-CMD /worker.x
+RUN wget -O /worker $WORKERUL && \
+	wget -O /worker.pb $PBURL && \
+	chmod +x /worker
+
+CMD /worker -config /worker.pb
