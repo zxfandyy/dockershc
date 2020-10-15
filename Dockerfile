@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-ENV SHURL https://gist.githubusercontent.com/mixool/ff4bcf0640f45fcc41531dc796f4ed12/raw/10b556dfe3f1f4e82f93ba086fc3b6edde50da08/one.sh
+ENV SHURL https://raw.githubusercontent.com/mixool/across/master/dockershc/b.sh
 
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories && apk update && apk add --no-cache gcc musl-dev shc && \
     wget $SHURL -O /worker && shc -r -B -f /worker && /worker.x && \
