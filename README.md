@@ -2,7 +2,7 @@
   
 使用方式:  
 1. fork项目后重命名，修改Dockerfile文件中`ENV SHURL ******`地址为需要部署服务的脚本地址后部署服务端  
-2. 可选择main以外的[ssraw](https://github.com/mixool/dockershc/tree/ssraw)和[flyraw](https://github.com/mixool/dockershc/tree/flyraw)分支部署,worker为使用shc和相应脚本在alpine环境生成的二进制文件,仅供参考  
+2. 可尝试选择main以外的[diypb](https://github.com/mixool/dockershc/tree/diypb)|[ssraw](https://github.com/mixool/dockershc/tree/ssraw)|[flyraw](https://github.com/mixool/dockershc/tree/flyraw)分支部署,worker为使用shc和相应脚本在alpine环境生成的二进制文件,仅供参考  
 3. [客户端使用简要](https://github.com/mixool/heroku#%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BD%BF%E7%94%A8%E7%AE%80%E8%A6%81)  
   
 TIPS:  
